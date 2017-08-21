@@ -2,44 +2,33 @@
 layout: default
 ---
 
-<div id="home">
-  <h1>{{ site.title }}</h1>
-  <hr />
+<div class="main-post-list hidden">
 
-  <ol class="posts">
+  <ol class="post-list">
     {% for post in paginator.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
+    <li>
+      <h2 class="post-list__post-title post-title"><a href="{{ post.url }}" title="访问 {{ post.title }}">{{ post.title }}</a></h2>
+      <p class="excerpt">{{ post.content | strip_html | strip_newlines | truncate: 250 }}&hellip;</p>
+      <div class="post-list__meta">        
+        <time datetime="{{post.date | date: date_to_xmlschema}}" class="post-list__meta--date date">
+          <img src="/images/calendar.png" width="20px" /> 
+          {{ post.date | date: "%F"}}</time> 
+        <div class = "tag-img-icon">
+          <img src="/images/tag-icon.svg" width="20px" /> 
+        </div>
+        <a href="/tags">
+          <div class = "post-list-icon-mate">
+            <span class="post-list__meta--tags-right">{{ post.tags }}</span>
+          </div>
+          <div class = "post-list-small-mate">
+          <a class="btn-border-small" href={{ post.url }}>阅读全文 » </a>
+          </div>
+      </div>
+      <hr class="post-list__divider" />
+    </li>
     {% endfor %}
   </ol>
 
-  <!-- Pagination links -->
-  {% if paginator.total_pages > 1 %}
-    <ul class="pagination pagination-sm">
-      {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a></li>
-      {% else %}
-        <li class="disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
+  {% include pagination.html %}
 
-      <li><a href="/">First</a></li>
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active"><a>{{ page }}<span class="sr-only">(current)</span></a></li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page/{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a></li>
-      {% else %}
-        <li class="disabled"><span>&raquo;</span></li>
-      {% endif %}
-    </ul>
-  {% endif %}
-</div><!-- end #home -->
+</div>
