@@ -1,84 +1,311 @@
-# leopard
+# JOYTOU
+JOYTOU(http://joytou.nets.hk) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme.
 
-[leopard](http://baixin.io) 是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+# Content
 
-### 使用手册
+| Directory | 目录 | 目錄 | 
+|:----------:|:----------:|:----------:|
+| [English](#en) | [简体中文](#cn)| [繁體中文](#tw) |
+| [Introduction](#introduction) | [概述](#概述) | [概述](#概述) |
+| [Features](#features) | [功能特色](#功能特色) | [功能特色](#功能特色)|
+| [Native Server](#native-server) | [服务版本](#服务版本) | [服務版本](#服務版本) |
+| [File directories](Mainfest.md) | [文件目录](Mainfest.md) | [文件目錄](Mainfest.md) |
+| [Configurations](#configurations) | [配置](#配置) | [配置](#配置) |
+| [Writting article](#writting-article) | [写文章](#写文章) | [寫文章](#寫文章) |
+| [License](#license) | [许可协议](#许可协议) | [許可協議](#許可協議)|
 
-[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)  :  使用Jekyll搭建个人博客的教程，以及如果把博客模板修改成你自己的博客，里面也有大量的评论，及 Jekyll 搭建博客出现过的问题。
+-------
 
-[HEXO搭建个人博客](http://baixin.io/2015/08/HEXO%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/) : 使用 HEXO 基于 Github Page 搭建个人博客， 教程里面累计了大量提问和评论，如果你在搭建博客时遇到问题，可以看看这个教程。 
+# en
+
+## Introduction
+JOYTOU(http://joytou.nets.hk) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme. But no matter what, you must keep the copyright.
+
+## Features
+1. BootStrap style
+2. Blog basic functions
+3. Top navigation bar
+4. Automatically generate Sitemap.xml
+5. View the article by date, category, tag, etc.
+6. The important articles can be placed at the top
+7. Article sharing
+8. Multi-language
+9. Article comment
+10. Global search
+11. JQuery responsive design
+
+## Native Server
+Clone from github.com:
+
+- Clone with SSH:
+```
+git clone git@github.com:joytou/joytou.github.io.git
+```
+
+- Clone with HTTPS:
+```
+git clone https://github.com/joytou/joytou.github.io.git
+```
+
+## Configurations
+in _config.yml:
+
+| Key | Value | Annotation |
+|:----------:|:----------:|:----------|
+|      email      |      1540294142@qq.com      |       Your e-mail address     |
+|      author      |      Joytou Wu      |      The article author's name      |
+|       url     |     http://joytou.nets.hk       |      Your site address, and do not add  `/`  in the end      |
+|     github       |      https://github.com/joytou/      |      Your github account address      |
+|      github_username      |      joytou      |       Your github account name     |
+|      repo      |      joytou.github.io      |      Your repository name     |
+|      owner_name      |      joytou      |      The site owner name      |
+|     description       |      ---      |     Your site description       |
+|      keywords      |      ---      |      Your site keywords, and it must listted as array      |
+|       remind     |      BOOL      |       Whether to remind you to upgrade the latest version when there is the latest version.     |
+|      BaiduSiteVerification      |      ---      |      The string of Baidu Site Verification. If you didn't have, left it blank.      |
+|      51la      |      ---      |      The String of 51.la statistic's id. If you didn't have, left it blank.       |
+|       51lamb     |      ---      |      The style of 51.la statistic's data reference.       |
+> Please refer to the official website for other variables.
+
+in each /_data/(languages code).yml:
+
+| Key | Value | Annotation |
+|:----------:|:----------:|:----------|
+| sitename | JOYTOU | Your site name |
+| sitesubname | An amateur programmer who loves to sit around and refuse to rest! | Your site subname |
+| sitedescription | This blog template build by builder from style | Your site descriphtion(please keeping the string: 'builder', 'style') |
+| siteabout | JOYTOU was done by me (Joytou). If you like this template, you can subsidize me a little. | Writting something about your site or yourself(yourselves) |
+
+## Writting article
+post format:
+```
+--- 
+layout: post 
+
+title:  test       
+#article title 
+
+date:   2015-04-05 08:00:00 +0800     
+#publish date 
+
+nav: post     
+
+stickie: true         
+#Make the article stick to the top if true 
+
+category: official         
+#the category for the article 
+
+tags: [log, bootstrap, joytou]     
+#the tags for the article, it should be a array 
+--- 
+* content 
+{:toc} 
+
+Summary Content
+#Summary content. 
+
+<!-- more --> 
+
+Article mainly content
+#Writting the article here. 
+```
 
 
-### 使用条件
+## License
+By using the Service, you [agree to comply with all the terms of this Agreement](https://github.com/joytou/joytou.github.io/raw/master/LICENSE).
+ 
+-------
 
-Jekyll 支持 Mac 、Windows、ubuntu 、Linux 操作系统                     
-Jekyll 需要依赖：Ruby、bundler
+# cn
 
+## 概述
+JOYTOU(http://joytou.nets.hk) 是一款由Joytou Wu基于Bootstrap开发的博客模板。您可以通过fork或者复制本项目进行创建您的博客。JOYTOU集成了Git代码版本控制，用户可以选择 Coding、GitHub、BitBucket、GitLab 等任意的代码仓库。JOYTOU是免费的，您可以更改以适应您的主题。但不管如何您务必保留相关版权。
 
-#### 安装Jekyll
+## 功能特色
+1. BootStrap样式
+2. 博客基本功能
+3. 顶部导航栏
+4. 自动Sitemap.xml
+5. 通过日期、类别、标签等分类文章
+6. 重要文章可置顶
+7. 文章分享
+8. 多语言
+9. 文章评论
+10. 全局搜索
+11. JQuery响应式设计
 
-[Jekyll中文官方文档](http://jekyll.bootcss.com/) ， 如果你已经安装过了 Jekyll，可以忽略此处。
+## 服务版本
+从Github克隆项目：
 
-> $ gem install jekyll
+- 用SSH克隆：
+```
+git clone git@github.com:joytou/joytou.github.io.git
+```
 
-#### 获取博客模板
+- 用HTTPS克隆：
+```
+git clone https://github.com/joytou/joytou.github.io.git
+```
 
-> $ git clone https://github.com/leopardpan/leopardpan.github.io.git
+## 配置
+_config.yml:
 
-或者直接[下载博客](https://github.com/leopardpan/leopardpan.github.io/archive/master.zip)   
+| 键 | 值 | 备注 |
+|:----------:|:----------:|:----------|
+|      email      |      1540294142@qq.com      |       您的电子邮件地址     |
+|      author      |      Joytou Wu      |      文章作者名称      |
+|       url     |     http://joytou.nets.hk       |      您的网址，末尾不能加上 `/`       |
+|     github       |      https://github.com/joytou/      |      您的Github用户地址      |
+|      github_username      |      joytou      |       您的Github用户名     |
+|      repo      |      joytou.github.io      |      您的repository名字     |
+|      owner_name      |      joytou      |      网站所有者名字      |
+|     description       |      ---      |     网站的描述       |
+|      keywords      |      ---      |      网站的关键词，必须以数组形式列出      |
+|       remind     |      BOOL      |       是否提醒可升级新版本     |
+|      BaiduSiteVerification      |      ---      |      百度网站的验证码。如果没有，请留空白      |
+|      51la      |      ---      |      51.la网站的统计id。如果没有，请留空白       |
+|       51lamb     |      ---      |      51.la数据引用的样式       |
+> 其它变量请参考官网的介绍。
 
-进leopardpan.github.io/ 目录下， 开启本地服务 
+各个 /_data/(语言代码).yml 文件:
 
-> $ jekyll server
+| 键 | 值 | 备注 |
+|:----------:|:----------:|:----------|
+| sitename | JOYTOU | 您的网站名称 |
+| sitesubname | 一个热爱折腾、不肯休息的业余程序员！ | 您的网站副名称 |
+| sitedescription | 此博客模板由builder通过style创建 | 您的网站描述(请保留字符串：'builder'、'style') |
+| siteabout | JOYTOU是由我(Joytou)单独完成的。如果您喜欢此模板，可以对此模板小额资助。 | 一些关于您的网站或者您(们)的信息 |
 
-在浏览器输入 [127.0.0.1:4000](127.0.0.1:4000) ， 就可以看到博客效果了。
+## 写文章
+文章格式：
+```
+--- 
+layout: post 
 
+title:  test       
+#文章标题 
 
-### 提示
+date:   2015-04-05 08:00:00 +0800     
+#发布日期 
 
->* 如果你想使用我的模板，请把 _posts/ 目录下的文章都去掉。
->* 修改 _config.yml 文件里面的内容为你自己的个人信息。
+nav: post     
 
-如果在部署博客的时候发现问题，可以直接在[Issues](https://github.com/leopardpan/leopardpan.github.io/issues)里面提问。        
+stickie: true         
+#如果为true则文章置顶 
 
+category: official         
+#文章的分类 
 
-### 把这个博客变成你自己的博客
+tags: [log, bootstrap, joytou]     
+#文章的标签，必须是数组 
+--- 
+* content 
+{:toc} 
 
-根据上面【提示】修改过后，在你的github里创建一个username.github.io的仓库，username指的值你的github的用户名。      
-创建完成后，把我的这个模板使用git push到你的username.github.io仓库下就行了。
-搭建博客如果遇到问题可以看看我教程[Jekyll搭建个人博客](http://baixin.io/2016/10/jekyll_tutorials1/)。
+Summary Content
+#摘要内容 
 
+<!-- more --> 
 
-### 效果预览
+Article mainly content
+#在这儿写文章
+```
 
-#### 头像效果
+## 许可协议
+一旦您使用本服务，即表示[您同意遵循本协议的所有约定](https://github.com/joytou/joytou.github.io/raw/master/LICENSE)。
 
-![](/images/readme//icon.gif)
+-------
 
-如果你只想要我博客里的头像效果，你只需要拿 leopardpan.github.io/_includes/side-panel.html 文件里面 `头像效果` 和 leopardpan.github.io/css/main.css 里面最后面 `头像效果` 部分就行了。
+# tw 
 
+## 概述 
+JOYTOU(http://joytou.nets.hk) 是一款由Joytou Wu基於Bootstrap開發的博客模板。您可以通過fork或者復製本項目進行創建您的博客。 JOYTOU集成了Git代碼版本控制，用戶可以選擇 Coding、GitHub、BitBucket、GitLab 等任意的代碼倉庫。 JOYTOU是免費的，您可以更改以適應您的主題。但不管如何您務必保留相關版權。 
 
-***
+## 功能特色 
+1. BootStrap樣式 
+2. 博客基本功能 
+3. 頂部導航欄 
+4. 自動Sitemap.xml 
+5. 通過日期、類別、標籤等分類文章 
+6. 重要文章可置頂 
+7. 文章分享 
+8. 多語言 
+9. 文章評論 
+10. 全局搜索 
+11. JQuery響應式設計 
 
-#### 博客首页   
+## 服務版本 
+從Github克隆項目： 
 
-![](/images/readme//img4.png)   
+- 用SSH克隆： 
+``` git clone git@github.com:joytou/joytou.github.io.git ``` 
 
-***  
+- 用HTTPS克隆： 
+``` git clone https://github.com/joytou/joytou.github.io.git ``` 
 
-#### 文章详情   
+## 配置 
+_config.yml: 
 
+| 鍵 | 值 | 備註 | 
+|:----------:|:----------:|:----------| 
+| email | 1540294142@qq.com | 您的電子郵件地址 | 
+| author | Joytou Wu | 文章作者名稱 | 
+| url | http://joytou.nets.hk | 您的網址，末尾不能加上 `/` | 
+| github | https://github.com/joytou/ | 您的Github用戶地址 | 
+| github_username | joytou | 您的Github用戶名 | 
+| repo | joytou.github.io | 您的repository名字 | 
+| owner_name | joytou | 網站所有者名字 | 
+| description | --- | 網站的描述 | 
+| keywords | --- | 網站的關鍵詞，必須以數組形式列出 | 
+| remind | BOOL | 是否提醒可升級新版本 | 
+| BaiduSiteVerification | --- | 百度網站的驗證碼。如果沒有，請留空白 | 
+| 51la | --- | 51.la網站的統計id。如果沒有，請留空白 | 
+| 51lamb | --- | 51.la數據引用的樣式 | 
+> 其它變量請參考官網的介紹。 
 
+各個 /_data/(語言代碼).yml 文件:
 
-![](/images/readme//img3.png)
+| 鍵 | 值 | 備註 |
+|:----------:|:----------:|:----------|
+| sitename | JOYTOU | 您的網站名稱 |
+| sitesubname | 一個熱愛折騰、不肯休息的業餘程序員！ | 您的網站副名稱 |
+| sitedescription | 此博客模板由builder通過style創建 | 您的網站描述(請保留字符串：'builder'、'style') |
+| siteabout | JOYTOU是由我(Joytou)單獨完成的。如果您喜歡此模板，可以對此模板小額資助。 | 一些關於您的網站或者您(們)的信息 |
+## 寫文章
+post format:
+```
+--- 
+layout: post 
 
+title:  test       
+#文章標題
 
-![](/images/readme//img2.png)
+date:   2015-04-05 08:00:00 +0800     
+#發佈日期
 
+nav: post     
 
-![](/images/readme//img1.png)
+stickie: true         
+#如果為true則文章置頂
 
+category: official         
+#文章的分類
 
-#### 感谢   
+tags: [log, bootstrap, joytou]     
+#文章的標籤，必須是數組
+--- 
+* content 
+{:toc} 
 
-本博客在[Vno Jekyll](https://github.com/onevcat/vno-jekyll)基础上修改的。  
+Summary Content
+#摘要內容
+
+<!-- more --> 
+
+Article mainly content
+#在這兒寫文章
+```
+
+## 許可協議 
+一旦您使用本服務，即表示[您同意遵循本協議的所有約定](https://github.com/joytou/joytou.github.io/raw/master/LICENSE)。
