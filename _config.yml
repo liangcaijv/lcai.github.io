@@ -4,15 +4,15 @@ layouts:     ./_layouts
 timezone:    Asia/Hongkong
 
 # Site settings
-email: 1540294142@qq.com
-author: Joytou Wu
-owner_name: Joytou Wu
-github_username: joytou
-repo: joytou.github.io
+email: liangcai1223@163.com
+author: 梁偲
+owner_name:  梁偲
+github_username: liangcaijv
+repo: liangcaijv.github.io
 
 #Server
-url: http://joytou.nets.hk
-github: https://github.com/joytou/
+url: http://liangcaijv.github.io
+github: https://liangcaijv.github.io
 baseurl: ""
 
 #Page settings
@@ -29,8 +29,7 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt']
 
 # Description
-description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
-# Keywords
+description: "努力，每个人都可以"
 keywords:
         - "github"
         - "bootstrap"

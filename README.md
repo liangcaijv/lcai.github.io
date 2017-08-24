@@ -52,7 +52,7 @@ in _config.yml:
 
 | Key | Value | Annotation |
 |:----------:|:----------:|:----------|
-|      email      |      1540294142@qq.com      |       Your e-mail address     |
+|      email      |      liangcai1223@163.com      |       Your e-mail address     |
 |      author      |      Joytou Wu      |      The article author's name      |
 |       url     |     http://joytou.nets.hk       |      Your site address, and do not add  `/`  in the end      |
 |     github       |      https://github.com/joytou/      |      Your github account address      |
