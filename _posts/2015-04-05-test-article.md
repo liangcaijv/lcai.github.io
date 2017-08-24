@@ -1,7 +1,7 @@
 ---
 layout: postcn
 title: "测试文章lc"
-date: 2015-04-05 08:00:00 +0800
+date: 2017-08-25 08:00:00 +0800
 lang: cn
 nav: post
 category: test
