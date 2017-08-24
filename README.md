@@ -153,13 +153,13 @@ _config.yml:
 
 | 键 | 值 | 备注 |
 |:----------:|:----------:|:----------|
-|      email      |      1540294142@qq.com      |       您的电子邮件地址     |
-|      author      |      Joytou Wu      |      文章作者名称      |
-|       url     |     http://joytou.nets.hk       |      您的网址，末尾不能加上 `/`       |
-|     github       |      https://github.com/joytou/      |      您的Github用户地址      |
-|      github_username      |      joytou      |       您的Github用户名     |
-|      repo      |      joytou.github.io      |      您的repository名字     |
-|      owner_name      |      joytou      |      网站所有者名字      |
+|      email      |      liangcai1223@163.com     |       您的电子邮件地址     |
+|      author      |      liangcai      |      文章作者名称      |
+|       url     |     http://liangcaijv.github.io       |      您的网址，末尾不能加上 `/`       |
+|     github       |      http://liangcaijv.github.io       |      您的Github用户地址      |
+|      github_username      |      liangcaijv.github.io      |       您的Github用户名     |
+|      repo      |      liangcaijv.github.io      |      您的repository名字     |
+|      owner_name      |      liangcai      |      网站所有者名字      |
 |     description       |      ---      |     网站的描述       |
 |      keywords      |      ---      |      网站的关键词，必须以数组形式列出      |
 |       remind     |      BOOL      |       是否提醒可升级新版本     |
