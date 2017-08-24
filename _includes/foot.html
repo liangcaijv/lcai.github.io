@@ -1,16 +1,14 @@
 {% assign translation = site.data[page.lang] %}
-{% capture builder %}<a href="http://joytou.nets.hk/">Joytou</a>{% endcapture %}
+{% capture builder %}<a href="http://joytou.nets.hk/">梁偲</a>{% endcapture %}
 {% capture style %}<a href="http://getbootstrap.com">Bootstrap</a>{% endcapture %}
 <div class="blog-footer">
-      <p>Copyright &copy; 2017 <a href="http://joytou.nets.hk/">Joytou</a></p>
+      <p>Copyright &copy; 2017 <a href="http://liangcaijv.github.io/">梁偲</a></p>
       <p>{{ translation.footcopyright | replace: 'builder', builder | replace: 'style', style }}</p>
       <p>
         <a href="#">{{ translation.backtop }}</a>
       </p>
 	  {% if site.51la and site.51lamb %}
-	  <p>
-		{{ translation.totalvisit }}<script language="javascript" type="text/javascript" src="//quote.users.51.la/?id={{ site.51la }}&amp;mb={{ site.51lamb }}"></script>
-	  </p>
+	 
 	  {% endif %}
     </div>
 
