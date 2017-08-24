@@ -1,6 +1,5 @@
-# JOYTOU
-JOYTOU(http://joytou.nets.hk) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme.
-
+# Liangcai
+JOYTOU(http://liangcaijv.github.io)
 # Content
 
 | Directory | 目录 | 目錄 | 
@@ -19,7 +18,7 @@ JOYTOU(http://joytou.nets.hk) is a BootStrap blog template developed by Joytou W
 # en
 
 ## Introduction
-JOYTOU(http://joytou.nets.hk) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme. But no matter what, you must keep the copyright.
+Liangcai(http://liangcaijv.github.io) is a BootStrap blog template developed by Joytou Wu. You can create your blog by forking or copying this project. JOYTOU works fine with Git. You can use Coding、GitHub、BitBucket、GitLab as your Git repository. JOYTOU is free and you can change it to suit your theme. But no matter what, you must keep the copyright.
 
 ## Features
 1. BootStrap style
@@ -119,8 +118,6 @@ By using the Service, you [agree to comply with all the terms of this Agreement]
 
 # cn
 
-## 概述
-JOYTOU(http://joytou.nets.hk) 是一款由Joytou Wu基于Bootstrap开发的博客模板。您可以通过fork或者复制本项目进行创建您的博客。JOYTOU集成了Git代码版本控制，用户可以选择 Coding、GitHub、BitBucket、GitLab 等任意的代码仓库。JOYTOU是免费的，您可以更改以适应您的主题。但不管如何您务必保留相关版权。
 
 ## 功能特色
 1. BootStrap样式
@@ -235,27 +232,20 @@ JOYTOU(http://joytou.nets.hk) 是一款由Joytou Wu基於Bootstrap開發的博�
 10. 全局搜索 
 11. JQuery響應式設計 
 
-## 服務版本 
-從Github克隆項目： 
 
-- 用SSH克隆： 
-``` git clone git@github.com:joytou/joytou.github.io.git ``` 
-
-- 用HTTPS克隆： 
-``` git clone https://github.com/joytou/joytou.github.io.git ``` 
 
 ## 配置 
 _config.yml: 
 
 | 鍵 | 值 | 備註 | 
 |:----------:|:----------:|:----------| 
-| email | 1540294142@qq.com | 您的電子郵件地址 | 
-| author | Joytou Wu | 文章作者名稱 | 
-| url | http://joytou.nets.hk | 您的網址，末尾不能加上 `/` | 
-| github | https://github.com/joytou/ | 您的Github用戶地址 | 
-| github_username | joytou | 您的Github用戶名 | 
-| repo | joytou.github.io | 您的repository名字 | 
-| owner_name | joytou | 網站所有者名字 | 
+| email | liangcai1223@163.com | 您的電子郵件地址 | 
+| author | 梁偲 | 文章作者名稱 | 
+| url | http://liangcaijv.github.io | 您的網址，末尾不能加上 `/` | 
+| github | http://liangcaijv.github.io | 您的Github用戶地址 | 
+| github_username | liangcaijv | 您的Github用戶名 | 
+| repo | liangcaijv.github.io | 您的repository名字 | 
+| owner_name | 梁偲 | 網站所有者名字 | 
 | description | --- | 網站的描述 | 
 | keywords | --- | 網站的關鍵詞，必須以數組形式列出 | 
 | remind | BOOL | 是否提醒可升級新版本 | 
@@ -307,5 +297,4 @@ Article mainly content
 #在這兒寫文章
 ```
 
-## 許可協議 
-一旦您使用本服務，即表示[您同意遵循本協議的所有約定](https://github.com/joytou/joytou.github.io/raw/master/LICENSE)。
+
