@@ -1,7 +1,7 @@
 ---
 layout: postcn
 title: "docker mysql主从复制"
-date: 2017-08-25 08:00:00 +0800
+date: 2017-09-10 08:00:00 +0800
 lang: cn
 nav: post
 category: test
@@ -11,6 +11,13 @@ tags: [test, article]
 * content
 {:toc}
 
+1、	docker已经在centos6.5（或者其他操作系统）上安装好
+docker -v
+Docker version 1.7.1, build 786b29d/1.7.1
+
+
+
+<!-- more -->
 1、	docker已经在centos6.5（或者其他操作系统）上安装好
 docker -v
 Docker version 1.7.1, build 786b29d/1.7.1
@@ -128,8 +135,3 @@ Waiting for master to send event ...
 
 8、	验证
 只要在主服务器数据库插入或修改数据，就可以自动复制到从服务器上了。
-
-
-
-<!-- more -->
-在这儿写文章快点饭快速回头客你觉得才能减肥 
