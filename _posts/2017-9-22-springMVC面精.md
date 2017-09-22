@@ -12,12 +12,7 @@ tags: [SpringMVC]
 
 * content
 {:toc}
-
-<p>另一篇测试文章归档功能的文章</p>
-<!-- more -->
-<p>另一篇测试文章归档功能的文章</p>
-
-
+<!--more-->
 ## 1.web项目中怎么接入SpringMVC？
 在web.xml中写入：
 ```xml
