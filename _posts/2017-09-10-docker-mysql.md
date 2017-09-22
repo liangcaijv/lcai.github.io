@@ -4,8 +4,8 @@ title: "docker mysql主从复制"
 date: 2017-09-10 08:00:00 +0800
 lang: cn
 nav: post
-category: test
-tags: [test, article]
+category: docker mysql
+tags: [docker, mysql]
 ---
 
 * content
