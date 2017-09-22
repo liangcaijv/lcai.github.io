@@ -12,6 +12,8 @@ tags: [SpringMVC]
 
 * content
 {:toc}
+## 1.web项目中怎么接入SpringMVC？
+在web.xml中写入：
 <!--more-->
 ## 1.web项目中怎么接入SpringMVC？
 在web.xml中写入：
